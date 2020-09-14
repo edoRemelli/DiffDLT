@@ -12,9 +12,9 @@ To do so efficiently, so that to use this operation to supervise training of our
 
 Here is a comparison of our method (DLT-SII) with respect to an SVD-based implementation of DLT (bechmarks run on an Nvidia Tesla V100 GPU):
 
-![alt text](https://github.com/edoRemelli/DiffDLT/edit/master/output/accuracy.png?raw=true)
+![Image](output/accuracy.png)
 
-![alt text](https://github.com/edoRemelli/DiffDLT/edit/master/output/time_gpu.png?raw=true)
+![Image](output/time_gpu.png)
 
 # Getting started
 To get started and install the minimal dependencies of this module simply run:
