@@ -26,7 +26,7 @@ cd DiffDLT
 
 Then, to make sure that everything is working, you can reproduce the benchmarks of the main paper by running 
 ```
-python run_benchamrk.py
+python run_benchmark.py
 ```
 
 # References
