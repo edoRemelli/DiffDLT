@@ -3,4 +3,4 @@ This repository contains the PyTorch implementation of the GPU-friendly formulat
 
 The Direct Linear Transform (DLT) algorithm can be used to solve a set of similarity equations of the form
 
-x<sub>k</sub> &alpha; A y<sub>k</sub>
+x<sub>k</sub> &alpha; A y<sub>k</sub> for k in range(K)
