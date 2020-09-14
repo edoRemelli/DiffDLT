@@ -96,7 +96,7 @@ if __name__ == "__main__":
     plt.xlabel("MPJPE-2D")
     plt.ylabel("MPJPE-3D")
     plt.title("Accuracy")
-    plt.savefig("./output/accuracy.pdf")
+    plt.savefig("./output/accuracy.png")
 
 
     print("Timing on GPU...")
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     time_1iter = []
     time_2iter = []
     time_3iter = []
-
+    # fixed amount of noise, doesn't matter here anyway
     points_2d_noisy = points_2d + 2*torch.randn(points_2d.shape)
 
     for batch_size in batch_sizes:
@@ -159,4 +159,4 @@ if __name__ == "__main__":
     plt.xlabel("Batch size")
     plt.ylabel("Time")
     plt.title("GPU Runtime")
-    plt.savefig("./output/time_gpu.pdf")
+    plt.savefig("./output/time_gpu.png")
