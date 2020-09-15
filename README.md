@@ -24,7 +24,7 @@ cd DiffDLT
 ./setup.sh
 ```
 
-Then, to make sure that everything is working, you can reproduce the benchmarks of the main paper by running 
+Then, to make sure that everything is working, you can reproduce benchmarks from the main paper by running 
 ```
 python run_benchmark.py
 ```
